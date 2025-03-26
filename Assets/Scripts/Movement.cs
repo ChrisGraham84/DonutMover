@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
@@ -40,7 +41,7 @@ public class Movement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //keyboard controls
         if (Input.GetKey(KeyCode.W))
